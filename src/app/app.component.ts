@@ -15,6 +15,7 @@ export class AppComponent {
     <a [routerLink]="['/']">Home</a>
     <a [routerLink]="['/about']">About</a>
     <a [routerLink]="['/portfolio']">Portfolio</a>
+    <a [routerLink]="['/route-param']">Route-Param</a>
     <div class="outer-outlet">
       <router-outlet></router-outlet>
     </div>

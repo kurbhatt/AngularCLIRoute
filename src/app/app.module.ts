@@ -12,6 +12,9 @@ import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProductComponent } from './product/product.component';
 import { ServicesComponent } from './services/services.component';
+import { RouteParamComponent } from './route-param/route-param.component';
+import { RouteParam1Component } from './route-param-1/route-param-1.component';
+import { RouteParam2Component } from './route-param-2/route-param-2.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ServicesComponent } from './services/services.component';
     AboutComponent,
     PortfolioComponent,
     ProductComponent,
-    ServicesComponent
+    ServicesComponent,
+    RouteParamComponent,
+    RouteParam1Component,
+    RouteParam2Component
   ],
   imports: [
     BrowserModule,
